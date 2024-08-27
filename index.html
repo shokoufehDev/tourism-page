@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body> 
+    <div class="container">
+     <header class="header">
+            <div class="header-logo" data-aos="fade-left">
+                <img src="./img/logogreen copy.png" alt="" class="header-logo__img">
+            </div>
+            <div class="header-searchBox">
+                <input class="searchBox__input" type="text" placeholder="مکان مورد نظرت رو پیدا کن...">
+                <button class="searchBox__button">
+                    <svg clss="search__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                      </svg>
+                      
+                </button>
+            </div>
+            <div class="header-detail" data-aos="fade-right">
+                <div class="user">
+                   <a class="detail__user" href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                  </svg>
+                  </a> 
+                </div>
+                <div class="home">
+                    <a class="detail__home" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>                      
+                </a>
+            </div>
+                <div class="menu">
+                    <a class="detail__menu" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                        </svg>  
+                    </a>
+                </div>
+                
+            </div>
+            
+            
+            
+        </header>
+     <main class="main">
+        
+            <div class="main-title" data-aos="fade-left">
+                <h1 class="main-intro">
+                      باغ فردوس تهران
+                </h1>
+                <p class="main-addres">
+                    <svg class="location__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                    </svg>
+                    تهران، تجریش، منطقه یک، خیابان ولی عصر
+                </p>
+            </div>
+            <div class="introduce" id="introduce" data-aos="fade-down">
+                <h2 class="introduce__title">معرفی</h2>
+                <p class="introduce__text">باغ فردوس که با نام باغ موزه فردوس، باغ معیری و موزه سینما نیز شناخته می‌شود؛ یکی از باغ‌ها و جاهای دیدنی تهران است که در محله خوش آب‌وهوای باغ فردوس در شمال این شهر قرار دارد. این باغ در سال ۱۳۸۱ به موزه سینمای ایران تبدیل شده است. قدمت این باغ به دوران قاجار و پادشاهی محمد شاه می‌رسد و از آثار ملی کشور محسوب می‌شود.</p>
+                <span class="more-info">
+                    اطلاعات بیشتر
+                </span>
+            </div>
+            
+            <div class="gallery">
+                <div class="gallery__main">
+                    <img src="./img/icons8-next-50.png" alt="" class="next__btn">
+                    <img class="main__img" src="./img/ferdos10.jpg" alt="#" data-aos="zoom-in">
+                    <img src="./img/icons8-previous-50.png" alt="" class="pre__btn">
+                </div>
+            
+                <div class="gallery__album">
+                    <img class="album__img" src="img/ferdos10.jpg" alt="#" data-aos="fade-left">
+                    <img class="album__img" src="img/ferdos11.jpg" alt="#" data-aos="fade-right">
+                    <img class="album__img" src="img/ferdos1.webp" alt="#" data-aos="fade-left">
+                    <img class="album__img" src="img/ferdos2.webp" alt="#" data-aos="fade-right">
+                    <img class="album__img" src="img/ferdos3.webp" alt="#" data-aos="fade-left">
+                    <img class="album__img" src="img/ferdos4.webp" alt="#" data-aos="fade-right">
+                    <img class="album__img" src="img/ferdos5.jpg" alt="#" data-aos="fade-left">
+                    <img class="album__img" src="img/ferdos6.jpg" alt="#" data-aos="fade-right">
+
+                </div>
+                
+            </div>
+            <div class="details">
+                <div class="details__item">
+                    <div class="first__section">
+                        <svg class="details__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                          </svg>
+                          <span>مدت پیشنهادی بازدید</span>
+                    </div>
+                    <div class="second__section">
+                        1 تا 3 ساعت
+                    </div>
+                </div>
+                <div class="details__item">
+                    <div class="first__section">
+                        <svg class="details__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                          </svg>
+                          <span>ساعت دسترسی</span>
+                    </div>
+                    <div class="second__section">
+                        8 صبح تا 12 شب
+                    </div>
+                </div>
+                <div class="details__item">
+                    <div class="first__section">
+                        <svg class="details__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                          </svg>
+                          <span>هزینه ورودی</span>
+                    </div>
+                    <div class="second__section">100 هزار تومان</div>
+                </div>
+            </div>
+            
+            <div class="comments" id="comments">
+                <div class="show__comments">
+                    
+                </div>
+                <div class="add__comments">
+                    <p class="comment__question">
+                        <svg class="comment__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                          </svg>
+                          
+                        نظر شما درباره این مکان چیست؟
+
+                    </p>
+                    <input class="comment__input" type="text">
+                    <button class="comment__send">ارسال</button>
+                </div>
+            </div>
+            <div class="map" id="map">
+                <div class="access">
+                    <h3 class="access__title">مسیر دسترسی به باغ فردوس تهران</h3>
+                    <p class="access__text">
+                        برای رسیدن به موزه سینما می‌توانید در خط یک مترو به ایستگاه تجریش رفته و پس از خروج از ایستگاه در میدان قدس، با ۲۰ دقیقه پیاده‌روی در خیابان ولیعصر به‌سمت جنوب، به عمارت باغ فردوس برسید، یا اینکه این مسیر را با تاکسی یا بی آر تی طی کنید.
+اگر قصد استفاده از بی آر تی را دارید، می‌توانید از اتوبوس‌های مسیر تجریش - راه‌آهن استفاده کنید و در ایستگاه باغ فردوس از اتوبوس پیاده شده و به این باغ بروید.
+با مینی‌بوس‌های خط تجریش به ولنجک به خیابان ولیعصر رفته و روبه‌روی باغ از آن پیاده شوید. <br>
+اگر با ماشین شخصی به باغ فردوس می‌روید، بهتر است بدانید پیداکردن جای پارک مشکل است و بهتر است اتومبیل خود را در یکی از کوچه‌های اطراف پارک کنید. نزدیک‌ترین پارکینگ عمومی، در میدان تجریش واقع شده است.
+                    </p>
+                    <p class="access__address">آدرس باغ فردوس تهران: خیابان ولیعصر (شمال)، بعد از سه راه زعفرانیه، نرسیده به تجریش، باغ فردوس. 
+                    </p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d12943.426788680485!2d51.41399100723848!3d35.80345121076495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x3f8e060fbf0d4417%3A0x60df446d30ebe981!2z2KfYs9iq2KfZhiDYqtmH2LHYp9mG2Iwg2KrYrNix24zYtNiMINmF2YbYt9mC2Ycg27HYjCDigKvYrtuM2KfYqNin2YYg2YjZhNuMINi52LXYsdiMINio2KfYuiDZgdix2K_ZiNiz!3m2!1d35.802596!2d51.421989499999995!4m3!3m2!1d35.804237!2d51.426252399999996!5e0!3m2!1sen!2s!4v1709188642937!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+     </main>
+
+
+     <footer class="footer">
+        <div class="footer__container">
+            <div class="intro">
+                <img src="./img/logogreen copy.png" alt="#" class="footer__logo">
+                <p class="footer__about">دهگردی یک بستر اینترنتی جهت معرفی اماکن ، جاذبه های گردشگری و اقامتگاه ها در راستای درآمدزایی پایدار روستایی کشور می باشد</p>
+            </div>
+            <div class="contact">
+                <a href="#" class="footer__contact--link">ارتباط با ما</a>
+                <a href="" class="footer__about--link">درباره دهگردی</a>
+                <div class="media__links">
+                    <a href="#" class="insta__link">
+                        <img src="./img/icons8-instagram.svg" alt="#" class="insta__icon">
+                    </a>
+                    <a href="#" class="telegram__link">
+                        <img src="./img/icons8-telegram.svg" alt="#" class="telegram__icon">
+                    </a>
+                    <a href="#" class="twitter__link">
+                        <img src="./img/icons8-twitter.svg" alt="#" class="twitter__icon">
+                    </a>
+                    <a href="#" class="linkedin__link">
+                        <img src="./img/icons8-linkedin.svg" alt="#" class="linkedin__icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">© ایده و کلیه حقوق مادی و معنوی طراح متعلق به هیرکــــــان جابــــــز می باشد.</div>
+     </footer>
+
+
+
+
+
+     <div class="info-modal">
+        <div class="head__part">
+            <h2 class="modal__title">باغ فردوس تهران را بیشتر بشناسید:</h2>
+            <svg class="close--icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>
+        </div>  
+        <div class="history-part">
+            <h3 class="part__title">
+                <span class="circle"></span>
+                پیشینه
+            </h3>
+            <p class="part__text">
+                در دروان قاجار باغ‌های متعددی در تهران ایجاد شد که باغ فردوس یکی از آن‌ها به شمار می‌رود و توسط یکی از درباریان قاجار در زمان محمد شاه، ساخته شده است. این باغ در واقع بخش کوچکی از باغ وسیع فردوس محسوب می‌شود که در گذشته اراضی میان اسدآباد و ولنجک در شمال، الهیه از جنوب، دره تجریش از شرق و محمودیه از غرب؛ جزو زمین‌های باغ فردوس بوده‌اند.
+ 
+در دوران پهلوی باغ فردوس سرنوشت جدیدی پیدا کرد. در سال ۱۳۱۶، به دستور علی اصغر حکمت، وزیر معارف آن زمان، باغ فردوس خریداری، عمارت آن مرمت و دبیرستان شاپور تجریش در آن دایر شد. در دوران پهلوی دوم، این باغ به مکانی برای جشن‌های ۲۵۰۰ اختصاص یافت. پس از انقلاب نیز مدتی در اختیار صدا و سیما و وزارت فرهنگ و ارشاد اسلامی بود. تا اینکه بنیاد سینمایی فارابی، سازمان میراث فرهنگی کشور و شهرداری تهران آن را برای موزه سینما در نظر گرفتند و سرانجام در شهریورماه سال ۱۳۸۱ باغ فردوس داستان جدید زندگی‌اش را شروع کرد و به باغ موزه فردوس یا موزه سینمای ایران تبدیل شد.
+
+
+            </p>
+            <img src="./img/ferdos2.webp" alt="" class="part__img first-modal-img">
+        </div>
+        <div class="architecture-part">
+            <h3 class="part__title">
+                <span class="circle"></span>
+                معماری
+            </h3>
+            <p class="part__text">
+باغ فردوس ۲۰ هزار متر مربع وسعت دارد و مساحت عمارت آن هزار متر مربع است که شامل سه و نیم طبقه به عرض ۲۶ متر و به طول تقریبا ۳۴ متر است. شیب زمین این باغ از شمال غربی به جنوب شرقی است و تندی این شیب به‌گونه‌ای است که کف طبقه اول بنا با قسمت جنوبی باغ و سقف آن با قسمت شمالی باغ هم سطح است. تمامی اتاق‌ها و سالن‌های ساختمان باغ، گچ‌بری‌های بسیار زیبایی در زیر حاشیه سقف دارد که از جمله می‌توان به مقرنس‌کاری‌های گل و شاخ و برگ اشاره کرد.
+
+باغ فردوس در طی زمان و در هر دوره، تغییرات زیادی پیدا کرده است و بسیاری از بخش‌های آن تخریب شده و استخرهای متعدد، قنات، ساختمان و عمارت‌هایی دیگری نیز داشته است.            
+ </p>
+        <img src="./img/ferdos11.jpg" alt="" class="part__img second-modal-img">
+        </div>
+        <div class="option-part">
+            <h3 class="part__title">
+                <span class="circle"></span>
+                امکانات
+            </h3>
+            <p class="part__text">
+
+                سالن های سینما: <br>در باغ فردوس سه سالن سینما فردوس، سینما تمدن و سینماتوگراف قرار دارد که فیلم‌های روز سینمای کشور در آن‌ها اکران می‌شود. <br>
+کافه‌ باغ فردوس: <br> باغ موزه فردوس کافه نیز دارد که برای گذران لحظاتی فرح‌بخش مناسب است. کافه سینما را غرب عمارت بالای سینماتوگراف می‌توانید ببینید که دو محوطه به نام پالت و تراس آفتاب مهتاب دارد و در منوی آن المان‌های سینمایی استفاده شده است.
+کافه ویونا: کافه معروف و زنجیره‌ای ویونا نیز سمت چپ باغ و بعد از ورود به محوطه قرار دارد.
+کتاب‌فروشی: <br>در باغ فردوس، تلویزیون قرمز رنگی که روی چهارپایه قرار دارد و روی آن نوشته شده: «به جاش کتاب بخونین»؛ نظرتان را جلب خواهد کرد و شما را به‌سمت کتاب فروشی حوض نقره هدایت می‌کند. <br>
+            </p>
+            <img src="./img/ferdos6.jpg" alt="" class="part__img third-modal-img">
+        </div>
+     </div>
+     </div>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
